@@ -34,8 +34,8 @@ a {
 }
 
 h2 {
-  font-size: 48px;
-  font-weight: 600;
+  font-size: 38px;
+  font-weight: 700;
   line-height: 56px;
   color: #5f82b6;
 }
@@ -93,6 +93,7 @@ h2 {
   text-align: center;
   padding: 32px 0px;
 }
+
 .benefit-sec h4 {
   font-size: 24px;
   font-weight: 600;
@@ -101,24 +102,20 @@ h2 {
   padding: 14px 0px;
 }
 
-.benefit-sec h4 p {
-  font-size: 18px;
-  font-weight: 400;
-  color: #5f82b6;
-}
-
 .benefit {
   border: 1px solid #cba560;
   border-radius: 24px;
   padding-left: 28px;
   padding-top: 16px;
 }
-/* ======SERVICES======= */
-.features {
-  margin-top: 50px;
+
+
+/* ======FEATURES======= */
+.features{
+  margin-top: 70px ;
+  margin-bottom: 100px;
   text-align: center;
 }
-
 .features_container .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -188,13 +185,14 @@ h2 {
   transition: all 0.5s;
 }
 
-.features_container .cards .card:hover::after {
-  transform: rotate(13deg);
-}
+
 
 /* slider-section */
 #review {
   margin-top: 50px;
+}
+.sliderwrapper{
+  height: 60%;
 }
 .slick-slide {
   margin: 30px 10px;
